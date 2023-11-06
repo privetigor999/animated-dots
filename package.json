@@ -1,6 +1,6 @@
 {
   "name": "animated-dots",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Animated dots",
   "main": "./dist/index.js",
   "scripts": {
