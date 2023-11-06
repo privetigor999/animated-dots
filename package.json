@@ -9,6 +9,11 @@
   "author": "Igor Ershov",
   "keywords": ["dots", "animate", "animated-dots"],
   "license": "MIT",
+  "homepage": "https://github.com/privetigor999/animated-dots/",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/privetigor999/animated-dots/"
+  },
   "devDependencies": {
     "@types/react": "^18.2.35",
     "react": "^18.2.0",
