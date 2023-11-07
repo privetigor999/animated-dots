@@ -1,6 +1,6 @@
 {
   "name": "animated-dots",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "Animated dots",
   "main": "./dist/index.js",
   "scripts": {
@@ -9,10 +9,10 @@
   "author": "Igor Ershov",
   "keywords": ["dots", "animate", "animated-dots"],
   "license": "MIT",
-  "homepage": "https://github.com/privetigor999/animated-dots/",
+  "homepage": "https://github.com/privetigor999/animated-dots",
   "repository": {
     "type": "github",
-    "url": "https://github.com/privetigor999/animated-dots/"
+    "url": "https://github.com/privetigor999/animated-dots"
   },
   "devDependencies": {
     "@types/react": "^18.2.35",

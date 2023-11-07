@@ -7,7 +7,8 @@ export interface AnimatedDots {
 
 export const AnimatedDots: FC<AnimatedDots> = ({
   interval = 700,
-  symbol = '.'
+  symbol = '.',
+  ...props
 }) => {
   const [dots, setDots] = useState<string>(symbol);
 
@@ -36,6 +37,6 @@ export const AnimatedDots: FC<AnimatedDots> = ({
   }, []);
 
   return (
-    <span>{dots}</span>
+    <span {...props}>{dots}</span>
   );
 };
