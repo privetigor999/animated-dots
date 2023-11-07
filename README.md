@@ -10,13 +10,14 @@ import { AnimatedDots } from 'animated-dots';
 export const Example = () => {
   return (
     <div>
-      Example<AnimatedDots/>
+      Default example<AnimatedDots />
     </div>
   );
 };
 ```
 
-![example](https://github.com/privetigor999/animated-dots/assets/106771492/ec35c872-8865-42f9-b0fb-5ab70a524b36)
+![default](https://github.com/privetigor999/animated-dots/assets/106771492/a5d67d22-b257-4c1c-8a60-4c66358c097d)
+
 
 ## Custom Example
 ```javascript
@@ -26,17 +27,18 @@ import { AnimatedDots } from 'animated-dots';
 export const Example = () => {
   return (
     <div>
-      Example<AnimatedDots symbol='!' interval={300}/>
+      Custom example<AnimatedDots symbol='!' interval={300} />
     </div>
   );
 };
 ```
 
-![custom-example](https://github.com/privetigor999/animated-dots/assets/106771492/81591623-6753-444e-8ba6-4aa00fe1bb8f)
+![custom](https://github.com/privetigor999/animated-dots/assets/106771492/0c4b7169-aaff-42b6-87b0-d7a4e7faaf7f)
+
 
 ## Options
 
-| Option      | Default     | type |Description              |
+| option      | default     | type |description              |
 |-------------|-------------|------|-------------------------|
 | symbol      | .           |string|Symbol to be animated    |
 | interval    | 700         |number|Interval at which the number of symbols will change      |
